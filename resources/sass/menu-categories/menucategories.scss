@@ -1,0 +1,89 @@
+.menu--categories--card {
+    padding: 19px 19px 70px;
+}
+
+.menu--categories--card {
+    .theme--light.v-data-table
+      > .v-data-table__wrapper
+      > table
+      > thead
+      > tr
+      > th {
+      color: #757575;
+    }
+
+    .v-data-table table tbody tr {height: 100px;}
+
+    .theme--light.v-data-table
+      > .v-data-table__wrapper
+      > table
+      > tbody
+      > tr:not(:last-child)
+      > td:not(.v-data-table__mobile-row),
+    .theme--light.v-data-table
+      > .v-data-table__wrapper
+      > table
+      > tbody
+      > tr:not(:last-child)
+      > th:not(.v-data-table__mobile-row) {
+      border-bottom: 1px solid #eee !important;
+    }
+  }
+
+.cureent--menu-information {
+    margin-top: 22px;
+    padding: 19px 0 23px 31px;
+}
+
+.cureent--menu-information>div>span {
+    line-height: 1.8;
+    margin-left: 8px;
+    align-self: flex-end;
+    color: $active-color;
+}
+
+.menu--category--main-content {
+    padding: 0 69px;
+}
+
+.categories--card-title {
+    align-items: baseline !important;
+    padding-left: unset !important;
+    padding-right: unset !important;
+    padding-top: 30px !important;
+
+    .title {
+        align-self: end !important;
+    }
+}
+
+.menu--category-item-image {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.lh-2-1 {
+    line-height: 2.1 !important;
+}
+
+.lh-1-8 {
+    line-height: 1.8 !important;
+}
+
+.l-space-8 {
+    margin-left: 8px;
+}

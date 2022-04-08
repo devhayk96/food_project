@@ -1,0 +1,145 @@
+.flex--control {
+    width: 97.999%;
+    align-items: center;
+    display: flex !important;
+    padding: 20px 23px 19px 25px;
+    justify-content: space-between;
+}
+
+.current--category-information {
+    width: 100%;
+    display: flex;
+    min-height: 120px;
+}
+
+.category--name--status {
+    gap: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.category--name--status img {
+    width: 81px;
+    height: 81px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.category--name--status>h2 {
+    line-height: 1.1 !important;
+}
+
+.menu--categories--card {
+    .v-card__title {
+        font-weight: normal !important;
+    }
+
+    .v-data-table table tbody tr {
+        position:relative;
+    }
+}
+
+.ico-style {
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+
+.ico-style::after {
+    background-color: transparent !important;
+}
+
+.price-mod {
+    .v-icon.v-icon::after {
+        background-color: transparent !important;
+    }
+}
+
+.product--image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+//Components
+.search--product-dialog,
+.search--option-group-dialog {
+    padding: 0 10px 0 10px;
+
+    .v-data-table>.v-data-table__wrapper>table>thead>tr>th {
+        padding: 0;
+        height: 35px !important;
+    }
+
+    .v-data-table table tbody tr {
+        height: 60px !important;
+    }
+
+    .v-data-table table tbody tr td {
+        padding: 0 !important;
+    }
+
+    .add-delete--action-button {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        object-fit: cover;
+    }
+
+    .product--image--add-product {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .theme--light.v-data-table tbody tr.v-data-table__selected {
+        background: #fff;
+    }
+}
+
+.search--option-group-dialog {
+    .option--gorup--image--add-product {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.option--gorups-hide-show--action {
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+    max-width: 140px;
+    align-items: center;
+    border-radius: 100px;
+    padding: 7px 0 8px 15px;
+    border: 1px solid #EEEEEE;
+    justify-content: flex-start;
+
+    img {
+        width: 7px;
+    }
+}
+
+.product--name--optional-groups {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .product--option-groups {
+        gap: 20px;
+        bottom: 4px;
+        display: flex;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .remove--ico {
+        padding-left: 7px;
+        margin-left: 7px;
+        border-left: 1px solid #dedede;
+    }
+}
+

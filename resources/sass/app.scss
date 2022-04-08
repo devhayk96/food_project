@@ -1,0 +1,9 @@
+// Scss variables
+$active-color: #3EB53E;
+$inactive-color: #EB4843;
+$btn-color-1: #0096C7;
+
+@import 'menu-list/menulist';
+@import 'user-profile/userprofile';
+@import 'menu-categories/menucategories';
+@import 'category-products/categoryproducts'

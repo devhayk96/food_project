@@ -1,0 +1,25 @@
+
+.p-list {
+    padding: 16px 88px 61px 88px;
+}
+
+.active, .inactive {
+    font-weight: 600;
+}
+
+.active {
+    color: $active-color;
+}
+
+.inactive {
+    color: $inactive-color;
+}
+
+.data-class {
+    border:1px solid red !important;
+    height: 95px !important;
+}
+
+.p-off {
+    padding:unset !important;
+}

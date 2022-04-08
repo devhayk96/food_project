@@ -1,0 +1,128 @@
+$heading-txt:#0096C7;
+
+.edit--view-user--profile {
+    width: 70.333%;
+    margin: auto;
+    min-height: 1000px;
+    border-radius: 10px;
+    border: 1px solid #1E1E1E1C;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+
+    .contain {
+        margin-right: auto;
+        margin-left: 15px;
+        max-width: 86.333%;
+    }
+
+    .gap-12 {
+        gap:12px;
+    }
+
+    .gap-15 {
+        gap: 15px;
+    }
+
+    .w-90 {
+        width: 90%;
+    }
+
+    .heading {
+        padding: 20px 0 20px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .avatar {
+        width: 80px;
+        height: 85px;
+        object-fit:cover;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .hi-text {
+        flex-direction: column;
+    }
+
+    .hi-text > p {
+        margin:0;
+        color:#545454;
+    }
+
+    .hi-text > h2 {
+        margin: 0;
+        line-height: 1;
+        font-size: 1.9em;
+        color:$heading-txt;
+    }
+}
+
+.user--profile {
+    .size {
+        margin-right: auto;
+        max-width: 60.333%;
+    }
+
+    .profile-page-actions {
+        width: 87%;
+        justify-content: center !important;
+        .v-btn {
+            min-width: 140px !important;
+        }
+
+        .white-bordered {
+            border: 1px solid #E8E8E8;
+
+            .v-btn__content {
+                color: #757575;
+                letter-spacing: 1.8px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .label {
+        width: 20%;
+
+        .v-subheader {
+            justify-content: center;
+        }
+    }
+
+    .phone-field {
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 100%;
+        display: flex;
+        color: #5C5C5C;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        position: absolute !important;
+        border-radius: 8px 0px 0px 8px;
+        font: normal normal normal 20px/25px Quicksand;
+        background: #F1F1F1 0% 0% no-repeat padding-box;
+    }
+
+    .field {
+        width: 67%;
+
+        .mdi-content-copy {
+            color:#0096C7;
+        }
+
+        .mdi-content-copy:hover {
+            cursor:pointer;
+        }
+    }
+
+    .v-form > div {
+        justify-content: end;
+    }
+}

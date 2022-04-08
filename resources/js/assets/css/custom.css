@@ -1,0 +1,111 @@
+.default_button{
+    background: transparent linear-gradient(102deg, #0073D8 0%, #033E71 100%) 0 0 no-repeat padding-box;
+    font: normal normal 600 18px/23px Quicksand;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    padding: 13px 42px;
+    text-transform:uppercase;
+    letter-spacing: 1.8px;
+    color: #FFFFFF !important;
+    opacity: 1;
+}
+.clear_button{
+    border-radius: 7px;
+    opacity: 1;
+    background: transparent 0 0 no-repeat padding-box;
+    font: normal normal 600 14px/18px Quicksand;
+    letter-spacing: 1.4px;
+    color: #E5E5E5;
+    text-transform: uppercase;
+    padding: 11px 35px;
+    border: 1px solid #E5E5E5;
+}
+
+.dropzone-account-settings{
+    width: 380px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.account_settings_subtitle{
+    display:block;
+    text-align: left;
+    font: normal normal 16px/20px Quicksand;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.85;
+    margin-top:25px;
+    margin-bottom: 5px;
+}
+.account_settings_row{
+    display:block;
+    text-align: left;
+    font: normal normal 16px/20px Quicksand;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.85;
+}
+.piggy-account-settings{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.piggy-account-settings label{
+    margin-right: 15px;
+    min-width: 110px;
+}
+.piggy-account-settings input{
+    padding: 2px;
+    border: 1px solid gray;
+    width: 80%;
+}
+.piggy-account-settings-checkbox{
+    margin-bottom: 30px;
+}
+.piggy-account-settings-checkbox input{
+    width: inherit !important;
+}
+
+#background_img_name, #logo_img_name{
+    border: 1px solid #E5E5E5;
+    border-radius: 7px;
+    opacity: 1;
+    display: block;
+    width: 380px;
+    padding: 15px;
+}
+
+.background_color .color-block{
+    width: 107px;
+    height: 48px;
+    border-radius: 6px !important;
+    opacity: 1;
+}
+
+.background_color .color-block-layer {
+    border-radius: 6px !important;
+}
+
+.color-hex{
+    width: 140px;
+    height: 49px;
+    background: transparent 0 0 no-repeat padding-box;
+    border: 1px solid #E5E5E5;
+    border-left: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    opacity: 1;
+    font: normal normal 600 16px/20px Quicksand;
+    letter-spacing: 0;
+    color: #212121;
+    padding: 14px 0 14px 20px;
+    position: relative;
+    left: -7px;
+}
+.color-hex:focus-visible {
+    outline: none;
+}
+.tab_item{
+    min-height: 700px;
+}
